@@ -13,7 +13,6 @@ brotlipy @ file:///D:/bld/brotlipy_1636012457296/work
 certifi==2021.10.8
 cffi @ file:///D:/bld/cffi_1636046270630/work
 click @ file:///D:/bld/click_1635822759200/work
-colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
 cryptography @ file:///D:/bld/cryptography_1639699517190/work
 dash==2.1.0
 dash-bootstrap-components==1.0.3
