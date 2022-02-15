@@ -4,11 +4,7 @@ altair-saver==0.5.0
 altair-viewer
 async-generator==1.10
 Brotli==1.0.9
-brotlipy @ file:///D:/bld/brotlipy_1636012457296/work
 certifi==2021.10.8
-cffi @ file:///D:/bld/cffi_1636046270630/work
-click @ file:///D:/bld/click_1635822759200/work
-cryptography @ file:///D:/bld/cryptography_1639699517190/work
 dash==2.1.0
 dash-bootstrap-components==1.0.3
 dash-core-components==2.0.0
@@ -19,10 +15,6 @@ Flask==2.0.2
 Flask-Compress==1.10.1
 future==0.18.2
 gunicorn==20.1.0
-importlib-metadata @ file:///D:/bld/importlib-metadata_1644556187883/work
-ipykernel @ file:///D:/bld/ipykernel_1644262809313/work/dist/ipykernel-6.9.0-py3-none-any.whl
-ipython @ file:///D:/bld/ipython_1642613902157/work
-itsdangerous==2.0.1
 jedi @ file:///D:/bld/jedi_1637175265063/work
 jupyter-core @ file:///D:/bld/jupyter_core_1636814417151/work
 MarkupSafe @ file:///D:/bld/markupsafe_1635833738092/work
