@@ -15,25 +15,21 @@ Flask==2.0.2
 Flask-Compress==1.10.1
 future==0.18.2
 gunicorn==20.1.0
-jedi @ file:///D:/bld/jedi_1637175265063/work
-jupyter-core @ file:///D:/bld/jupyter_core_1636814417151/work
-MarkupSafe @ file:///D:/bld/markupsafe_1635833738092/work
-mypy-extensions @ file:///D:/bld/mypy_extensions_1635839883962/work
-numpy @ file:///D:/bld/numpy_1643959173277/work
-pandas @ file:///D:/bld/pandas_1644670137086/work
+mypy-extensions 
+numpy 
+pandas 
 plotly==5.6.0
-psutil @ file:///D:/bld/psutil_1640887303421/work
-pyrsistent @ file:///D:/bld/pyrsistent_1642534566074/work
-PySocks @ file:///D:/bld/pysocks_1635862594204/work
+psutil 
+pyrsistent 
+PySocks 
 pywin32==303
-pyzmq @ file:///D:/bld/pyzmq_1635877387650/work
-sniffio @ file:///D:/bld/sniffio_1635844829053/work
+pyzmq 
+sniffio 
 tenacity==8.0.1
-tornado @ file:///D:/bld/tornado_1635819761050/work
-trio @ file:///D:/bld/trio_1636214343691/work
-typed-ast @ file:///D:/bld/typed-ast_1643046055864/work
+tornado 
+trio 
+typed-ast 
 vega-datasets
 Werkzeug==2.0.3
-win-inet-pton @ file:///D:/bld/win_inet_pton_1635832844911/work
-wsproto @ file:///D:/bld/wsproto_1636122202150/work
+
 
