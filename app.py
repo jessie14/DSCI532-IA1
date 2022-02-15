@@ -1,5 +1,5 @@
 import altair as alt
-from dash import Dash, dcc, html, Input, Output
+from dash import Dash, html, Input, Output, dcc
 from vega_datasets import data
 
 cars = data.cars()
