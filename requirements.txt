@@ -22,14 +22,13 @@ plotly==5.6.0
 psutil 
 pyrsistent 
 PySocks 
-pywin32==303
 pyzmq 
 sniffio 
-tenacity==8.0.1
+tenacity
 tornado 
 trio 
 typed-ast 
 vega-datasets
-Werkzeug==2.0.3
+Werkzeug
 
 
