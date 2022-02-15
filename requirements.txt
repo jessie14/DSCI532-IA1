@@ -1,13 +1,8 @@
-altair @ file:///home/conda/feedstock_root/build_artifacts/altair_1640799865332/work
+altair 
 altair-data-server==0.4.1
 altair-saver==0.5.0
-altair-viewer @ file:///home/conda/feedstock_root/build_artifacts/altair_viewer_1636219261993/work
-asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1618968359944/work
+altair-viewer
 async-generator==1.10
-attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1640799537051/work
-backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
-backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
-black @ file:///home/conda/feedstock_root/build_artifacts/black-recipe_1643636307408/work
 Brotli==1.0.9
 brotlipy @ file:///D:/bld/brotlipy_1636012457296/work
 certifi==2021.10.8
