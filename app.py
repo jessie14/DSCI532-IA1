@@ -2,7 +2,6 @@ import altair as alt
 from dash import Dash, dcc, html, Input, Output
 from vega_datasets import data
 
-    
 cars = data.cars()
 
 def plot_altair(xmax):
