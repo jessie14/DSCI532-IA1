@@ -1,13 +1,13 @@
 import altair as alt
 from dash import Dash, html, Input, Output, dcc
-from vega_datasets import data
+from gapminder import gapminder
 
-cars = data.cars()
 
 def plot_altair(xmax):
-    chart = alt.Chart(cars[cars['Horsepower'] < xmax]).mark_point().encode(
-        x='Horsepower',
-        y='Weight_in_lbs')
+    chart = alt.Chart(gapminder[gapminder['lifeExp'] < xmax]).mark_point().encode(
+        x='lifeExp',
+        y='pop',
+        tooltip='country').interactive()
     return chart.to_html()
 
 app = Dash(__name__, external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
@@ -19,7 +19,7 @@ app.layout = html.Div([
             id='scatter',
             srcDoc=plot_altair(xmax=0),
             style={'border-width': '0', 'width': '100%', 'height': '400px'}),
-        dcc.Slider(id='xslider', min=100, max=240)])
+        dcc.Slider(id='xslider', min=25, max=100)])
         
 @app.callback(
     Output('scatter', 'srcDoc'),
